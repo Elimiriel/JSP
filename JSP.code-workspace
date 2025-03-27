@@ -10,5 +10,15 @@
 			"path": "../Webapp3/emp"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.scanRepositories": [
+			"",
+			"D:\\Onedrive\\Personal\\OneDrive\\()programming\\WebApp2",
+			"D:\\Onedrive\\Personal\\OneDrive\\()programming\\Webapp3\\emp",
+			"D:\\Onedrive\\Personal\\OneDrive\\()programming\\JSP\\JSP"
+		],
+		"java.project.sourcePaths": [
+			""
+		]
+	}
 }
