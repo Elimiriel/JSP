@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "JSP"
+		},
+		{
+			"path": "../WebApp2"
+		},
+		{
+			"path": "../Webapp3/emp"
 		}
 	],
 	"settings": {}
