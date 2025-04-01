@@ -8,6 +8,15 @@
 		},
 		{
 			"path": "../Webapp3/emp"
+		},
+		{
+			"path": "FreeP"
+		},
+		{
+			"path": "Board"
+		},
+		{
+			"path": "EL_JSPL"
 		}
 	],
 	"settings": {
