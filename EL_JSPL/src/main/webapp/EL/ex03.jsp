@@ -2,6 +2,7 @@
 ${
 int su=23;
 pageContext.setAttribute("SU", su);
+//pageContext type: local-cannot pass
 }
 <!doctype html>
 <head>
@@ -13,8 +14,12 @@ EL language
 <body>
 <div>
 <h3>SU: ${SU}</h3>
-${setAttribute("Name", SU)}
-<h3><input type="button" onclick="${getRequestDispacher("ex02").forward(request, response)}"></h3>
+<h3><input type="button" onclick="${getRequestDispacher()}">: ${RequestScope.SU}</h3>
+</div>
+<div>
+<script type="text/javascript">
+// request, cession만 계속 유지. request는 1번 이동 후 소실.
+</script>
 </div>
 </body>
 </html>

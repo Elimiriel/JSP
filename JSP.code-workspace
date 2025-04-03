@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "EL_JSPL"
+		},
+		{
+			"path": "SpringLike"
 		}
 	],
 	"settings": {

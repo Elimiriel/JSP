@@ -1,0 +1,13 @@
+<welcome-file-list>
+    <welcome-file-name>index.jsp</welcome-file-name>
+    <welcome-file-name>index.html</welcome-file-name>
+</welcome-file-list>
+
+
+<servlet name>FrontController</servlet>
+<servlet-Class>com.member.controller.FrontController</servlet-Class>
+<servlet-name>FrontController</servlet-name>
+<servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>*/</url-pattern>
+</servlet-mapping>

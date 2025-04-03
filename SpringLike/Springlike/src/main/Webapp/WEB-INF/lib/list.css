@@ -1,0 +1,21 @@
+/* 페이징 처리의 스타일 */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* 페이지 번호를 가운데 정렬 */
+}
+nav ul li {
+    display: inline; /* 가로로 배치 */
+    margin-right: 10px; /* 각 항목 간의 간격을 추가 */
+}
+nav ul li a {
+    text-decoration: none; /* 링크에 밑줄 제거 */
+    color: #000; /* 기본 텍스트 색상 */
+}
+nav ul li a:hover {
+    color: #ff6600; /* 마우스 오버 시 색상 */
+}
+nav ul li.active a {
+    font-weight: bold; /* 현재 페이지 번호는 굵게 표시 */
+}

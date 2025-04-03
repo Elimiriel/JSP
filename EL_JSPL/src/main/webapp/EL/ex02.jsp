@@ -1,4 +1,4 @@
-<@ page language="java" contentType="text/html"; charset="utf-8"@>
+<%@ page language="java" contentType="text/html"; charset="utf-8"@%>
 ${
 int su=23;
 pageContext.setAttribute("SU", su);
@@ -14,8 +14,10 @@ EL language
 <body>
 <div>
 <h3>SU: ${SU}</h3>
-${setAttribute("Name", SU)}
-<h3><input type="button" onclick="${getRequestDispacher("ex02").forward(request, response)}"</h3>
+<h3><input type="button" onclick="${getRequestDispacher()}">: ${RequestScope.SU}</h3>
+</div>
+<div>
+<script type="text/javascript"></script>
 </div>
 </body>
 </html>
